@@ -15,12 +15,3 @@ if(isNotMember && price<100){
 
 
 
-
- //else( isMember&& price>100 || isMember && price<100)
-    // console.log("Es gibt 10% Rabatt, ab 100", price*0.9,
-          //"Es gibt kein Rabatt, unter 100", price);
- {
-
-
-
-}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Seite drei</title>
+</head>
+<body>
+<!--Wie viele Schuhe hat sie wirklich-->
+<script>
+    function zaehleSchuhe(){
+        //ausrechnen wie viele Schuhe sie wirklich hat
+        let regalboeden = document.getElementById("boeden") value; <!--8-->
+        let paareJeBoeden = document.getElementById("paareJeBoeden") value;  <!--5-->
+        let paareNebenDemRegal = document.getElementById("nebenDemRegal") value; <!--7-->
+        let paare = (regalboeden*paareJeBoeden)+paareNebenDemRegal;
+        let schuhe = paare * 2
+        document.getElementById("ausgabe").innerHTML = schuhe;
+    }
+</script> <br>
+Regalboeden: <input type="text" id="boeden" value=8;
+                    Paare je Boeden: <input type="text" id="paareJeBoeden" value=5;
+                                            Neben dem REgal:
+
+                                            Schrödingers Freundin hat <span id="ausgabe"></span>schuhe.<br>
+<button type="button" onclick="zaehleSchuhe();">Anzahl Schuhe </button>
+
+</body>
+</html>

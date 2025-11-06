@@ -1,0 +1,26 @@
+/*Selektoren nach Tags*/
+p{
+    color: green;
+}
+span {
+    color: blue;
+    background-color: mediumpurple;
+}
+body {
+    background-color: papayawhip;
+}
+/*Selektoren nach ID*/
+#erster-Absatz{
+    color: aqua;
+}
+#zweiter-Absatz {
+    color: red;
+    background-color: rosybrown;
+}
+.hobby {
+    color: darkmagenta;
+    background-color: lavender;
+}
+.essen {
+    color: gray;
+}

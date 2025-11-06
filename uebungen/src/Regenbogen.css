@@ -1,0 +1,19 @@
+.quellenangabe{
+    color: gray;
+}
+h1 {
+    color: orange;
+}
+#jaeger{
+    color: green;
+}
+#seemann{
+    color: cornflowerblue;
+}
+#schornsteinfeger{
+    color: black;
+}
+
+.beruf{
+    color: darkred;
+}

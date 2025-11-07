@@ -1,0 +1,10 @@
+p { color: cornflowerblue}
+.Absatz{ background-color: grey}
+#dritter-Absatz { color: darkred}
+.weiße-schrift { color: white; background-color: black}
+.schwarze-schrift { color: black; background-color: white}
+body {
+    background-color: #00leff;
+    background-image: url(https://www.hagengrote.ch/genussmagazin/wp-content/uploads/2020/08/GenussMagazin_20200825_Kuerbis_1-1024x554.jpg);
+    background-repeat: repeat-y;
+    background-position: right top; }

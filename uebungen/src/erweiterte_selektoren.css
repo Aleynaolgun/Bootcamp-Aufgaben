@@ -1,0 +1,12 @@
+h1 .da_boss {
+    font-style: italic;
+}
+em{
+    font-style: 1.2 em;
+}
+h1 em, h2 em{
+    font-style: italic;
+}
+h1 .da_boss, h2 .da_boss, h3 .da_boss, h4 .da_boss, h5 .da_boss, h6 .da_boss{
+    font-style: italic;
+}
